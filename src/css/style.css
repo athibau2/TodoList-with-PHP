@@ -1,0 +1,160 @@
+:root {
+    --primary: #088171;
+    --accent: #5c6bc0;
+    --secondary: #0eaaaf;
+    --primary-text: #141414;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: var(--accent);
+    background-color: var(--secondary);
+  }
+
+.custom-control {
+    margin-left: 125px;
+    color: var(--secondary);
+}
+
+#taskList {
+    margin-left: 125px;
+}
+
+h1 {
+    color: var(--accent);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--primary);
+}
+
+.navbar-brand {
+    color: var(--primary-text);
+}
+
+.list-group-item {
+    width: 89%;
+    margin-left: 125px;
+    padding: 12px 20px;
+    margin: 8px 0 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:'Lucida Sans';
+    color: var(--primary-text);
+}
+
+.dueDate {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.removeCircle {
+    float: right;
+    padding-left: 15px;
+    transition: transform .5s;
+    color: var(--primary-text);
+    margin: 0 auto;
+}
+  
+.removeCircle:hover {
+transform: scale(1.5);
+}
+
+.invisBtn {
+    background-color: Transparent;
+    border: none;
+    outline: none;
+}
+
+#AddButton {
+    background-color: var(--primary);
+    transition: transform .5s;
+    margin: 0 auto;
+    font-size: 24px;
+    padding-bottom: 9px;
+}
+
+#AddButton:hover {
+    transform: scale(1.25);
+}
+
+.btn {
+    transition: transform .5s;
+}
+
+.btn:hover {
+    transform: scale(1.25);
+}
+
+.checkBox {
+    transition: transform .5s;
+    margin: 0 auto;
+    color: var(--accent)
+}
+
+.checkBox:hover {
+    transform: scale(1.5);
+}
+
+
+.form-group {
+    margin-left: 125px;
+}
+
+#taskInfo {
+    width: 40%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#taskDate {
+    margin-left: 0px;
+    padding: 9px 20px;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+#strikeText {
+    text-decoration: line-through;
+}
+
+#loginForm {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 8%;
+    border-width: 40%;
+    border: double;
+}
+
+#loginToRegister {
+    position: static;
+    margin-left: 44.05%;
+    margin-top: -3.1%;
+}
+
+#registerToLogin {
+    position: static;
+    margin-left: 44.9%;
+    margin-top: -3.1%;
+}
+
+#login-welcome {
+    height: 50px;
+    background-color: var(--primary);
+    text-align: center;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+
+#logoutButton {
+    float: right; 
+    color: var(--primary-text); 
+    background-color: var(--accent); 
+    transition: transform .5s;
+}
+
+#logoutButton:hover {
+    transform: scale(1.25);
+}
